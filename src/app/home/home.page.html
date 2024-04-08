@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="title">
+      Capturar vídeo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="secondary">
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed" class="campicture">
+    <ion-fab-button (click)="captureVideo()">
+      <ion-icon name="videocam"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
